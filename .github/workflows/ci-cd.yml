@@ -29,7 +29,7 @@ jobs:
         run: npm test || echo "No tests found, would add tests in a real project"
 
   lint:
-    name: Static Code Analysis
+    name: Code Analysis
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
